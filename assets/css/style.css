@@ -21,3 +21,37 @@ html{
     font-size: 62.5%;
     font-family: 'League Spartan', sans-serif;
 }
+
+body{
+    background-image: url("../img/bg-pattern-top-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description{
+    width: 90%;
+    max-width: 370px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.description__title{
+    width: 260px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 3.0rem;
+    color: var(--very-dark-magenta);
+    text-align: center;
+    line-height: 2.4rem;
+}
+
+.description__paragraph{
+    width: 275px;
+    margin: auto;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.0rem;
+    color: var(--dark-grayish-magenta);
+}
